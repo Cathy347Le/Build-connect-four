@@ -1,3 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 h1 {
+  font-family: "Passion One", cursive;
   text-align: center;
+  font-size: 50px;
+}
+
+p {
+  padding: 1rem;
+}
+
+main {
+  text-align: center;
+}
+
+.reset {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
+  max-width: 650px;
+  min-height: 450px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.cell {
+  border: 1px solid black;
 }
